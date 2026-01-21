@@ -29,6 +29,7 @@ def test_comments_email_format_verification():
     assert isinstance(comments, list), "응답 데이터가 배열 형식이 아닙니다."
     assert len(comments) > 0, f"postId {TARGET_POST_ID}에 대한 댓글이 없습니다."
 
+    ###
     # 4. 각 댓글의 이메일 전수 검증 (핵심)
     for comment in comments:
         email = comment.get("email", "")
