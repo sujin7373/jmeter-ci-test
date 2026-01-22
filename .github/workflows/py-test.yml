@@ -4,9 +4,9 @@ on:
   push:
     # 모든 브랜치에 푸시가 발생하면 실행함
     branches: ["**"]
-    # master와 dev 브랜치를 제외한 모든 브랜치에서 푸시 발생 시 실행
+    # main와 dev 브랜치를 제외한 모든 브랜치에서 푸시 발생 시 실행
     #branches-ignore:
-    #  - 'master'
+    #  - 'main'
     #  - 'dev'
   # Actions 탭에서 수동 실행 가능
   workflow_dispatch:

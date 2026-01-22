@@ -2,9 +2,9 @@ name: master, full load test - JMeter로 빡센 부하테스트
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
